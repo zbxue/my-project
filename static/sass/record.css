@@ -1,0 +1,49 @@
+.auction-record:after {
+  clear: both;
+}
+
+.auction-record .record-title {
+  height: 1.1rem;
+  width: 100%;
+  margin: 0.15rem 0;
+  box-sizing: border-box;
+  background-color: #fff9f9;
+  border-bottom: 1px solid #d7d7d7;
+  border-top: 1px solid #d7d7d7;
+  padding: 0.2rem;
+  line-height: 0.7rem;
+}
+
+.auction-record .record-list {
+  overflow: hidden;
+  zoom: 1;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 0.15rem 0;
+}
+
+.auction-record .record-list .list-li {
+  height: 0.9rem;
+  line-height: 0.9rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  zoom: 1;
+  color: #909090;
+}
+
+.auction-record .record-list .list-li.active {
+  color: #ba191e;
+}
+
+.auction-record .record-details {
+  box-sizing: border-box;
+  border-bottom: 1px solid #d7d7d7;
+  border-top: 1px solid #d7d7d7;
+  overflow: hidden;
+  zoom: 1;
+  height: auto;
+  background-color: #FFFFFF;
+  margin: 0.15rem 0;
+  padding: 0.2rem;
+  line-height: 0.65rem;
+}

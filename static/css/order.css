@@ -1,0 +1,371 @@
+/*拍品详情列表*/
+.order-nav{
+	height:1.0rem;
+	line-height: 1.0rem;
+	text-align: center;
+	border-top: 1px solid #d7d7d7;
+	border-bottom: 1px solid #d7d7d7;
+	font-size: 0.36rem;
+}
+.order-nav .active{
+	color:#ba191e;
+	border-bottom: 2px solid #ba191e;
+}
+.inorder-tab{
+	width:100%;
+	text-align: center;
+	border:0px;
+	border-spacing:0;
+}
+.inorder-tab tr td{
+	height:0.85rem;
+	line-height: 0.85rem;
+	border-bottom: 1px solid #d7d7d7;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.inorder-tab thead td{
+	height:0.9rem;
+	line-height: 0.9rem;
+	background-color: #ebebeb;
+	border-top: 1px solid #d7d7d7;
+}
+
+.inorder-tab .top{
+	color: #ba191e;
+}
+.inorder-tab .out{
+	color: gray;
+}
+.order-tab-topbg{
+	background: #ba191e;
+	color: white;
+	padding:0.05rem 0.1rem;
+	border-radius: 0.1rem;
+}
+.order-tab-outbg{
+	background: #cfcfcf;
+	color: white;
+	padding:0.05rem 0.1rem;
+	border-radius: 0.1rem; 
+}
+.search-tab{
+  padding: 0.25rem 0.2rem;
+  line-height: 0.6rem;
+  border-bottom: 1px solid #d7d7d7; 
+}
+.timediv{
+	position: relative;
+	background: white;
+	border-radius: 0.6rem;
+	height: 0.6rem;
+	text-align: center;
+	border: 1px solid #d7d7d7;
+	overflow: hidden;
+	background: white;
+}
+.timediv:after{
+  clear: both;
+}
+.timediv input{
+	border: 0;
+	height:0.6rem;
+	line-height: 0.6rem;
+	padding: 0.1rem 0.4rem 0.1rem 0.25rem;
+	width: 100%;
+	box-sizing: border-box;
+}
+.timediv .iconfont{
+	position: absolute;
+	z-index: 0;
+	right: 0;
+	top: 0;
+	display: block;
+	height: 0.6rem;
+	line-height: 0.6rem;
+	width: 0.6rem;
+	box-sizing: border-box;
+	padding-right: 0.15rem;
+	color: #dbdbdb;
+}
+.none-mess{
+	padding-top: 2.0rem;
+}
+.none-mess img{
+  width: 1.5rem;
+}
+.leaveorder-tab{
+	width:100%;
+	text-align: center;
+	border:0px;
+	border-spacing:0;
+	background: #f5f5f5;
+	border-top:2px solid white;
+  	border-bottom: 1px solid #d7d7d7; 
+}
+.leaveorder-tab tr td{
+	height:0.4rem;
+	line-height: 0.4rem;
+	border-bottom: 1px solid white;
+	padding:0.2rem 0;
+}
+.submoney{
+	width:2rem;
+	text-align: center;
+	height:0.6rem;
+	line-height: 0.6rem;
+	border:1px solid #fc8b47;
+	color: #fc8b47;
+	border-radius: 0.3rem;
+}
+.income{
+	margin-top: -0.1rem;
+}
+.norder{
+	width:60%;
+	margin:0 auto;
+}
+/*竞拍列表页*/
+.auction-nav{
+	height: 0.8rem;
+	line-height: 0.8rem;
+	border-bottom: 1px solid #d7d7d7;
+	margin-top: 0.2rem;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 0.32rem;
+}
+.huicolor{
+	color:#feb7b8;
+}
+.auction-nav .active{
+	color:#ba191e;
+	border-bottom: 2px solid #ba191e;
+}
+.advertdiv{
+	height: 0.4rem;
+	line-height: 0.4rem;
+}
+.advertdiv img{
+	width: 100%;
+}
+.endtime{
+	background: black;
+	color: white;
+	border-radius: 0.05rem;
+	padding:0.05rem 0.1rem;
+}
+
+.auction-list{
+    border-bottom: 1px solid #d7d7d7;
+    background-color: #FFFFFF;
+    height: 1.4rem;
+    padding: 0.20rem;    
+    display: flex;
+    display: -webkit-flex;
+    overflow: hidden;
+}
+.auction-list-left{
+	height: 1.4rem;
+	width: 1.9rem;
+	padding: 0 0.2rem;
+}
+.auction-list-left img{
+	height: 1.4rem;
+	width: 1.9rem;
+}
+
+.auction-list-right{
+	-webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    
+    overflow: hidden;
+}
+.auction-list-right .auction-name{
+  height: 0.4rem;
+  line-height: 0.4rem;
+  overflow: hidden;
+  zoom: 1;
+  font-size: 0.28rem;
+  font-weight: 700;
+    
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+}
+.auction-name .name-val{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.auction-name .lerad{
+	
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+    height: 0.25rem;
+    line-height: 0.25rem;
+    font-size: 0.20rem;
+    font-weight: 300;
+    padding-right: 0.18rem;
+}
+.leradiusl{
+	display: inline-block;
+	height: 0.25rem;
+	line-height: 0.25rem;
+	background: #ba191e;
+	color: white;
+	border-radius: 0.25rem 0 0 0.25rem;
+	padding: 0 0.05rem 0 0.15rem;
+}
+.leradiusl0{
+	display: inline-block;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    background: #6f6f6f;
+    color: white;
+    border-radius: 0.25rem 0 0 0.25rem;
+    padding: 0 0.05rem 0 0.15rem;
+}
+.leradiusr{
+	display: inline-block;
+    height: 0.25rem;
+    line-height: 0.25rem;
+    background: #f0f1f5;
+	color: #bebec1;
+    padding: 0 0.05rem;
+}
+.auction-pro{
+  	height: 1.0rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    
+}
+
+
+.auction-pro .pro-val{
+    -webkit-flex-grow:1;
+    flex-grow:1;
+}
+.auction-pro .pro-val-c1{
+    height: 0.4rem;
+    -webkit-flex-grow:1;
+    flex-grow:1;
+    color: #5e5858;
+    margin-bottom: 0.07rem;
+}
+.pro-val-c1 .c-p1{
+  height: 0.2rem;
+  line-height: 0.25rem;
+  font-size: 0.18rem;
+}
+.pro-val-c1 .c-p2{
+  height: 0.2rem;
+  line-height: 0.15rem;
+  font-size: 0.14rem;
+}
+.pro-val-c1 .c-p3{
+  height: 0.4rem;
+  line-height: 0.4rem;
+  font-size: 0.28rem;
+  padding-left: 0.1rem;
+}
+.auction-pro .pro-val-c2{
+    height: 0.2rem;
+    line-height: 0.2rem;
+    font-size: 0.14rem;
+    color: #909090;
+}
+.auction-pro .pro-btn{
+    width: 0.85rem;
+    height: 0.85rem;
+	padding-right: 0.2rem;
+   
+}
+
+.auction-pro .pro-btn img{
+	width: 0.85rem;
+	height: 0.85rem;
+}
+
+.auction-list-right .col-3 img{
+	width:100%;
+}
+
+.flex-custom{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+
+.dis-flex{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.align-items-center{
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.justify-content-between{
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
